@@ -43,3 +43,23 @@ const user = {
     age: 22,
     id: 1300
 };
+function abc(a) {
+    return a;
+}
+console.log(abc(1234));
+console.log(abc("msjhjfhf"));
+console.log(abc([10, 20, 30, 40]));
+console.log(abc([10, "kjjkd", 64646, true]));
+const a1 = {
+    name8: "hjsdgd",
+    age8: 12,
+    aadhar: "kjmkdhch",
+    salary: 6262768
+};
+const a2 = {
+    name8: "lxjckchwc",
+    age8: 35,
+    aadhar: 97171971,
+    salary: false
+};
+console.log(a1, a2);

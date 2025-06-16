@@ -69,3 +69,37 @@ const user: Person = {
   id:1300
 };
 
+
+//generic
+function abc <T>(a:T):T{
+    return a;
+}
+console.log(abc<number>(1234));
+console.log(abc<string>("msjhjfhf"));
+console.log(abc<object>([10,20,30,40]));
+console.log(abc([10,"kjjkd",64646,true]));
+
+interface admin <A,B>{
+    name8:string,
+    age8:number,
+    aadhar:A,
+    salary:B,
+}
+const a1:admin<string,number>={
+    name8:"hjsdgd",
+    age8:12,
+    aadhar:"kjmkdhch",
+    salary:6262768
+};
+
+const a2:admin<number,boolean>={
+    name8:"lxjckchwc",
+    age8:35,
+    aadhar:97171971,
+    salary:false
+}
+console.log(a1,a2);
+
+//classes
+
+
